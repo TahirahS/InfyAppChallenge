@@ -1,0 +1,27 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  margin: 0px auto;
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.inline-list {
+  display: inline-block !important;
+  margin: 0 auto;
+}
+
+.btn {
+  width: 100px !important;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

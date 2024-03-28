@@ -1,0 +1,39 @@
+html{
+  height: 99%;
+  width: 99%;
+}
+
+.banner{
+  background-color: #fff8f5;
+  color: #ad7c58;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: left;
+  padding: 15px;
+  margin: 20px;
+  border: 5px solid #89674d;
+  border-radius: 1px;
+}
+
+.about{
+  background-color: #fff8f5;
+  color: #5958ad;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #3f4a83;
+  border-radius: 1px;
+  position: absolute;
+  width: 50%;
+}
+
+#st{
+  width: 60%;
+  height: 400px;
+  position: absolute;
+  float: left;
+}
+
+body{
+  
+}

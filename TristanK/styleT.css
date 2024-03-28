@@ -1,0 +1,89 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #dae7fb;
+}
+*{
+  box-sizing: border-box;
+}
+#topscreenbar{
+  background-color: #1c2735;
+}
+#title{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+/* this is the heading div */
+#heading{
+  text-align: left;
+  z-index: 0;
+  background-image: url(Images/banner.png);
+  background-color: #1c2735;
+  border: black double 2px;
+  position: relative;
+  margin: 15px;
+  padding: 10px;
+  height: 250px;
+  max-height: 250px;
+  max-width: 1250px;
+  text-shadow: 1px 1px black;
+  text-align: center;
+}
+#face{
+  z-index: 1;
+  top: 5px;
+  right: 50px;
+  margin: 20px;
+  position: absolute;
+}
+h4{
+  color: #dae7fb;
+  font-size: 2em;
+  font-style: italic;
+  position: relative;
+  top: 30px;
+  justify-items: center;
+}
+
+.middleArticle{
+  position: relative;
+  background-color: #1c2735;
+  padding: 40px 30px;
+  width: 85%;
+  color: #ffffff;
+  font-size: 17px;
+  margin-top: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+#leftBox{
+  float: left;
+  position: relative;
+  padding: 40px 30px; 
+  border: 1px solid black;
+  background-color: #9eb9dc;
+  text-align: left;
+  width: 45%;
+}
+#rightBox{
+  float: right;
+  position: relative;
+  padding: 40px 30px; 
+  border: 1px solid black;
+  background-color: #9eb9dc;
+  text-align: inline;
+}
+#content{
+  float: right;
+  position: relative;
+  border: 2px solid black;
+  max-width: 350px;
+  height: 500px;
+  padding-top: 20px;
+  background-color: #9eb9dc;
+}

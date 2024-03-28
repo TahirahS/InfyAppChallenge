@@ -1,0 +1,53 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+*{
+  box-sizing: border-box;
+}
+.banner{
+  background-color: rgba(100,149,230,0.7);
+  margin: 15px;
+  padding: 10px;
+  border: 3px solid #0e2c67;
+  box-shadow: 1px 10px 30px 5px #95c3f4;
+  outline: 10px 10px blue groove;
+  text-transform: capitalize;
+  text-shadow: 1px 1px #2e9bd1;
+  font-family: fantasy;
+  height: 155px;
+  text-align: center;
+  font-style: oblique;
+  color: #0e00d1;
+}
+h1{
+font-size: 0.7em;
+}
+h2{
+font-size: 0.7em;
+}
+  h3{
+font-size: 0.7em;
+}
+  h4{
+font-size: 0.7em;
+}
+.container{
+  border: 2px #0f0fae solid;
+position: relative;
+  top: 2px;
+  margin: 15px;
+  padding: 10px;
+  height: 700px;
+  overflow: hidden;
+  background-color: rgba(75,0,130, 0.5);
+  box-shadow: 1px 10px 30px 5px #60169c;
+  color: mintcream;
+}
+.navbar {
+  margin: 0px auto;
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
