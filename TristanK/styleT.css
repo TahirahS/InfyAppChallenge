@@ -30,6 +30,7 @@ html, body {
   max-width: 1250px;
   text-shadow: 1px 1px black;
   text-align: center;
+  float: top;
 }
 #face{
   z-index: 1;
@@ -86,4 +87,7 @@ h4{
   height: 500px;
   padding-top: 20px;
   background-color: #9eb9dc;
+}
+.navbar {
+  float: top;
 }
